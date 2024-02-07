@@ -1,0 +1,33 @@
+h1{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dotted;
+    background-color: red;
+    text-align: center;
+}
+
+nav>ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    border-style: outset;
+    
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+/*An example of using a pseudoclass*/
+nav>ul>li>a:hover{
+    background-color: aquamarine;
+}
+/*
+    I really dont know what im doing*/
+
+.hobby {
+
+}
