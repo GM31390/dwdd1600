@@ -1,0 +1,62 @@
+body {
+    background-color: darkgrey;
+}
+
+h1{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: groove;
+    text-align: center;
+}
+
+h2{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: groove;
+    text-align: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+
+nav>ul>li {
+
+    display: inline-flex;
+    border-style: groove;
+    text-align: center;
+    border-radius: 12px;
+    border: 12px;
+}
+
+nav>ul>li>a {
+    text-decoration:overline;
+    color: yellow;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 12px;
+    border: 12px;
+}
+
+nav>ul>li>a:hover{
+    background-color: yellow;
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*YO WAS GUD IMA MAKE THIS BACKGROUND YELLOW*/
+/*NEVA MIND WE IN DARK GREY*/
+
+
+
+
+
+
+/*suffer*/
