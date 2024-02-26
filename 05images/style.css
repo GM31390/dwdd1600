@@ -6,7 +6,7 @@ body {
 h1{
     color: rgb(255, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: flex;
+    border-style:flex;
     text-align: center;
     text-shadow: black;
     font-size: 96px;
@@ -14,9 +14,9 @@ h1{
 
 h2{
     color: blue
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: groove;
-    text-align: center;
+    font-family; 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style; groove;
+    text-align; center;
 }
 
 nav>ul {
