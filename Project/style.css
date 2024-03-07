@@ -1,7 +1,37 @@
+/* #region full sized style */
+
 body {
-    background-image: url(Images/backgroundimage.jpg);
+    background-image: linear-gradient(yellow,orange,yellow);
     background-position:center;
+    box-sizing: border-box;
+    
+  
 }
+
+header {
+    display: flex;
+    padding: 1rem 2vw;
+    align-items: flex-end;
+    background-image: url(Images/IMG_3994.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: 0px;
+   
+}
+
+body>header>div>p {
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style:flex;
+    text-align: center;
+    text-shadow: black;
+    font-size: 25px;
+    max-width: 960px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+
 
 h1{
     color: rgb(255, 0, 0);
@@ -9,20 +39,31 @@ h1{
     border-style:flex;
     text-align: center;
     text-shadow: black;
-    font-size: 96px;
+    font-size: 69px;
+    max-width: 960px;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: auto;
+
 }
 
 h2{
-    color: blue
+    color: orange
     font-family; 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style; groove;
     text-align; center;
+    max-width: 960px;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 nav>ul {
     list-style-type: none;
     padding-left: 0;
     text-align: center;
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: auto;
 }
 
 
@@ -33,6 +74,8 @@ nav>ul>li {
     text-align: center;
     border-radius: 12px;
     border: 12px;
+    max-width: 960px;
+    padding: auto;
 }
 
 nav>ul>li>a {
@@ -42,26 +85,36 @@ nav>ul>li>a {
     font-size: 48px;
     border-radius: 12px;
     border: 12px;
+    padding: auto;
+    margin: auto;
 }
 
 nav>ul>li>a:hover{
     background-color: orange;
+    box-sizing: border-box;
+    padding: auto;
 }
 
 p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-
+    box-sizing: border-box;
+    padding: auto;
 }
 
 
 img{ 
-    padding: 5px;
+    padding: 0%;
     width: 250px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 2px 5px black;
 }
 
 figcaption{
     color: white;
+    box-sizing: border-box;
+    display: flexbox;
 }
 
 figure{
@@ -69,20 +122,64 @@ figure{
     width: 1920px;
     height: 1080px;
     column-count: 3;
+    box-sizing: border-box;
+    
 }
 
-footer {
-    text-decoration:underline;
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-size: 48px;
-    border-style: groove;
-    border-radius: 12px;
-    border: 12px;
-}
+
 
 footer>ul>li:hover {
     background-color: orange;
+    box-sizing: border-box;
+}
+
+footer>ul>li {
+    text-decoration:red;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 48px;
+    list-style: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-sizing: border-box;
+   display: inline-flex;
+   border-style: groove;
+   text-align: center;
+   border-radius: 12px;
+   border: 12px;
+   max-width: 960px;
+   padding: auto;
+   margin: auto;
 
 }
 
+
+main {
+    text-decoration:red;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 48px;
+    border-radius: 12px;
+    border: 12px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-sizing: border-box;
+  
+}
+
+main>p {
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-inline-size: 25%;
+    max-height: fit-content;
+    max-width: 960px;
+    margin: auto;
+}
+
+main>figure {
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+/* #endregion /*
