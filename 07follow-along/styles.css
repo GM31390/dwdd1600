@@ -1,0 +1,53 @@
+/* #region Main Styling */
+
+header {
+    display: flex;
+    padding: 1rem 2vw;
+    align-items: flex-end;
+    background-image: url(Images/PUW75WT2T3SIF6THZKMWDQ67AY.jpg);
+    background-size: cover;
+}
+
+header>div {
+    padding-left: 2vw;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 2vw;
+}
+
+nav>ul>li {
+    border: dashed;
+    
+}
+
+nav {
+    border-top: solid;
+    text-align: center;
+    margin: auto;
+}
+
+nav>li>a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+ /* #endregion */
+
+
+ /* #region Mobile Styling */
+
+@media screen and (max-width: 600px) {
+    
+    
+    nav>ul {
+        display: block;
+    }
+
+
+
+}
+
+ /* #endregion */
