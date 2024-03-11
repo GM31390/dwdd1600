@@ -114,11 +114,11 @@ img{
 figcaption{
     color: white;
     box-sizing: border-box;
-    display: flexbox;
+    display: flex;
 }
 
 figure{
-    display: flexbox;
+    display: flex;
     width: 1920px;
     height: 1080px;
     column-count: 3;
@@ -176,10 +176,12 @@ main>p {
 }
 
 main>figure {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
+footer {
+    display: flex;
+}
 
 /* #endregion /*
