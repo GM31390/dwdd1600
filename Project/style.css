@@ -179,6 +179,7 @@ main>figure {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 footer {
     display: flex;
